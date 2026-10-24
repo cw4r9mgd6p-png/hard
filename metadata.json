@@ -1,0 +1,8 @@
+{
+  "name": "ระบบฮาร์ด (H-ARD) - Hospital Accounts Receivable Dashboard",
+  "description": "ระบบวิเคราะห์และบริหารความเสี่ยงลูกหนี้ค่ารักษาพยาบาลของโรงพยาบาลในสังกัดสำนักงานสาธารณสุขจังหวัดประจวบคีรีขันธ์ (H-ARD)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API" 
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "VisitStat": {
+      "title": "Visit Statistics",
+      "description": "Tracks dashboard visits",
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": ["timestamp", "path"]
+    }
+  },
+  "firestore": {
+    "dashboard_visits/{visitId}": {
+      "schema": "VisitStat",
+      "description": "Records individual dashboard visits"
+    }
+  }
+}
